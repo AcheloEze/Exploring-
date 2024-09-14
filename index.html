@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Explore Cities</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar">
+        <img src="/image /pexels-pixabay-256150.jpg" alt="Logo" class="logo">
+        <ul class="nav-links">
+          li><a href="#about" target="_blank">About</a></li>
+        <section id="about" class="about-section">
+    <h2>About Us</h2>
+    <p>Welcome to our website. We are dedicated to providing the best services.</p>
+    <input type="text" placeholder="Enter your query here" />
+</section>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+        </ul>
+        <button class="contact-button" onclick="contactUs()">Contact Us</button>
+    </nav>
+    <section>
+      <div class="hero-section">
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+            <img src="/image /pexels-lkloeppel-466685.jpg" style="width:100%">
+            <div class="text">Welcome to our website</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="/image /pexels-/image /pexels-jarod-17050814.jpg-219692.jpg" style="width:100%">
+            <div class="text">Thanks for choosing us</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="/image /pexels-pixabay-417344.jpg" style="width:100%">
+            <div class="text">Explore new cities</div>
+        </div>
+
+        <div class="mySlides fade">
+            <img src="/image /pexels-zhangkaiyv-1139556.jpg" style="width:100%">
+            <div class="text">Hope you had fun</div>
+        </div>
+    </div>
+</div>
+    </section>
+    <section>
+     <div class="search-container">
+        <input type="text" class="search-box" placeholder="Search...">
+        <img src="/image /bx-search-alt-2.svg" alt="Search Icon" class="search-icon" width="20" height="20" onclick="performSearch()">
+    </div>
+
+    <div class="radio-group">
+        <label>
+            <input type="radio" name="explore" value="exploreNow"> Explore Now
+        </label>
+        <label>
+            <input type="radio" name="explore" value="noThanks"> No Thanks
+        </label>
+    </div>
+    </section>
+    <h1>Discover New Cities </h1>
+    <p>Are you thirsty to explore new places all around the world? Look no more,Trivels gives you the opportunity to know new places and have adventures at the comfort of you home🤯😊</p>
+<div class="carousel">
+    <div class="slides">
+        <div class="slide">
+            <img src="/image /pexels-jarod-17050814.jpg" alt="City 1">
+        </div> 
+        <div class="slide">
+            <img src="/image /pexels-jarod-17185651.jpg" alt="City 2">
+        </div> 
+        <div class="slide">
+            <img src="/image /pexels-mikel-12956566.jpg" alt="City 3">
+        </div>
+         <div class="slide">
+            <img src="/image /pexels-pixabay-460672.jpg" alt="City 4">
+        </div>
+    </div>
+   
+</div>
+
+    <button class="button prev" onclick="moveSlide(-1)">&#10094;</button>
+    <button class="button next" onclick="moveSlide(1)">&#10095;</button>
+</div>
+
+<form
+  action="https://formspree.io/f/xyzgadgz"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+<h1>Connect with Us</h1>
+    <ul class="social-links">
+        <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+        <li><a href="https://www.twitter.com" target="_blank">Twitter</a></li>
+        <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+        <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+    </ul>
+      <!--Tab to edit-->
+    </section>
+
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+</html>
